@@ -1,0 +1,183 @@
+/* Hero Section Overrides */
+.hero {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 6rem 1.5rem 6rem !important;
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+    grid-template-columns: none !important;
+    gap: 0 !important;
+}
+
+.hero-badge {
+    background: #eef7f2 !important;
+    color: #3a7a5a !important;
+    padding: 0.5rem 1.25rem !important;
+    border-radius: 999px !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    margin-bottom: 2rem !important;
+    border: 1px solid #d8ede2 !important;
+}
+
+.hero-badge .dot {
+    width: 8px !important;
+    height: 8px !important;
+    background: #27ae60 !important;
+    border-radius: 50% !important;
+}
+
+.hero-title {
+    font-family: 'DM Serif Display', serif !important;
+    font-size: clamp(2.5rem, 6vw, 4.2rem) !important;
+    line-height: 1.15 !important;
+    color: #111 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.hero-title .text-green {
+    color: #4a8c6f !important;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem !important;
+    color: #666 !important;
+    max-width: 650px !important;
+    margin-bottom: 2.5rem !important;
+    line-height: 1.6 !important;
+}
+
+.hero-actions {
+    display: flex !important;
+    gap: 1rem !important;
+    margin-bottom: 5rem !important;
+}
+
+.btn-dark {
+    background: #111 !important;
+    color: #fff !important;
+    padding: 0.9rem 2rem !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    text-decoration: none !important;
+    transition: background 0.2s !important;
+}
+
+.btn-dark:hover {
+    background: #333 !important;
+}
+
+/* Visual Card Styles */
+.hero-visual-card {
+    background: #fdfdfc !important;
+    border: 1px solid #eee !important;
+    border-radius: 28px !important;
+    padding: 2.5rem !important;
+    width: 100% !important;
+    max-width: 820px !important;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.04) !important;
+}
+
+.card-header-dots {
+    display: flex !important;
+    gap: 8px !important;
+    margin-bottom: 2.5rem !important;
+}
+
+.card-header-dots .dot {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+}
+
+.dot.red { background: #ff5f57 !important; }
+.dot.yellow { background: #febc2e !important; }
+.dot.green { background: #28c840 !important; }
+
+.card-stats {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.stat-item {
+    background: #fff !important;
+    border: 1px solid #f0f0f0 !important;
+    border-radius: 20px !important;
+    padding: 1.5rem !important;
+    text-align: left !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01) !important;
+}
+
+.stat-label {
+    display: block !important;
+    font-size: 0.85rem !important;
+    color: #999 !important;
+    margin-bottom: 0.6rem !important;
+    font-weight: 500 !important;
+}
+
+.stat-value {
+    display: block !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #111 !important;
+    margin-bottom: 0.4rem !important;
+    letter-spacing: -0.02em !important;
+}
+
+.stat-change {
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+}
+
+.change-red { color: #eb5757 !important; }
+.change-green { color: #27ae60 !important; }
+
+.card-chart {
+    background: #fff !important;
+    border: 1px solid #f0f0f0 !important;
+    border-radius: 20px !important;
+    padding: 1.75rem !important;
+}
+
+.chart-row {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1.25rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.chart-row:last-child { margin-bottom: 0 !important; }
+
+.chart-label {
+    width: 60px !important;
+    font-size: 0.9rem !important;
+    color: #555 !important;
+    text-align: left !important;
+    font-weight: 600 !important;
+}
+
+.chart-bar-container {
+    flex-grow: 1 !important;
+    height: 10px !important;
+    background: #f5f5f5 !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+}
+
+.chart-bar {
+    height: 100% !important;
+    border-radius: 5px !important;
+}
+
+.bar-orange { background: #f2994a !important; }
+.bar-blue { background: #2d9cdb !important; }
+.bar-purple { background: #9b51e0 !important; }
