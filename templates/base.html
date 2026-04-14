@@ -34,9 +34,9 @@
             <span class="brand-icon">◈</span>
             <span class="footer-name">Spendly</span>
             <p class="footer-copy">Track every rupee. Own your finances.</p>
-            <div class="footer-links">
-                <a href="{{ url_for('terms') }}">Terms and Conditions</a>
-                <a href="#">Privacy Policy</a>
+            <div class="footer-links" style="margin-top: 10px; display: flex; flex-direction: column; gap: 5px;">
+                <a href="{{ url_for('terms') }}" style="font-size: 0.8rem; color: var(--ink-faint); text-decoration: none;">Terms and Conditions</a>
+                <a href="{{ url_for('privacy') }}" style="font-size: 0.8rem; color: var(--ink-faint); text-decoration: none;">Privacy Policy</a>
             </div>
         </div>
     </footer>
